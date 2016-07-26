@@ -1,0 +1,347 @@
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.video-container .title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.topbar{
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+    vertical-align:middle;
+}
+
+/* hieonn@snu.ac.kr top navigation css */
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #f2f2f2;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+
+navheader {
+    background: #fff;
+    width: 100%;
+    height: 73px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #f2f2f2;
+    z-index: 1001;
+    color:#000000;
+}
+
+#logo{
+    margin: 20px;
+    float: left;
+    width: 300px;
+    height: 40px;
+    background: url(https://s19.postimg.org/ghw1qhkyr/wnc_title.png) no-repeat center;
+    display: block;
+}
+
+nav {
+    float: right;
+    padding: 20px;  
+    margin-right:80px;
+}
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    /* background: #4C8FEC url(../img/menu-icon.png) center; */
+}
+
+a:hover#menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    color:#000000;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    color:#000000;
+}
+
+nav ul li a {
+    color : #000000;
+}
+
+/* color: #2262AD; */
+.current {
+    color: #000000;
+}
+
+.text-thin {
+    font-family: "Roboto", "Nanum Gothic";
+}
+
+.text-title {
+   font-size: 80vw; 
+}
+
+.text-thin-mid {
+    font-family: "Roboto", "Nanum Gothic";
+    font-size: 25px;
+    margin : auto auto;
+}
+
+.text-thin-normal {
+    font-family: "Roboto", "Nanum Gothic";
+    font-size: 18px;
+    margin : auto auto;
+}
+
+.row-spacing {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.row-bottom-spacing {
+    margin-bottom: 60px;
+}
+
+.delimeter {
+    width: 100%;
+    height: 300px;
+}
+
+a.anchor:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
+
+.odometer {
+    font-size: 60px;
+    font-family: "Roboto";
+}
+
+.paddingAdd {
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+#startbutton {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    height: 57px;
+    left: 0px;
+    overflow-wrap: break-word;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-decoration: none;
+    top: 0px;
+    vertical-align: middle;
+    width: 95%;
+    word-wrap: break-word;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 500.547px 28.5px;
+    transform-origin: 500.547px 28.5px;
+    background: rgb(0, 136, 204) linear-gradient(rgba(255, 255, 255, 0.2) 0px, rgba(255, 255, 255, 0.00784314) 100%) repeat-x scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(0, 136, 204);
+    border-radius: 5px 5px 5px 5px;
+    font-size: 18px; 
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 14px 25px;
+    transition: all 0.2s ease-in-out 0s;
+    margin: 0 auto;
+}/*#startbutton*/
+
+.mobile-spacing {
+    }
+
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+    navheader {
+        position: absolute;
+    }
+
+    #logocontainer {
+        width:100%;
+        height:100%;
+        text-align: center;
+    }
+
+    #logo{
+        width: 300px;
+        height: 40px;
+        background: url(https://s19.postimg.org/ghw1qhkyr/wnc_title.png) no-repeat center;
+        display: block;
+        margin: auto;
+    }
+
+
+    #menu-icon {
+        /* display:inline-block; */
+        display:none;
+    }
+
+    nav ul, nav:active ul { 
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #fff;
+        border: 5px solid #444;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+
+    #weclom-img {
+        width:90%;
+    }
+
+    .odometer {
+        font-size : 45px;
+    }
+
+    .paddingAdd {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    .title h2 {
+        font-size: 32px;
+        color : #1b1b1b;
+        font-weight : 300;
+    }
+
+    .mobile-spacing {
+        margin-top: 30px;
+    }
+}
+
+.text-sign-inup{
+    text-align:center;
+    padding-top:50px;
+    font-size:40px;
+    font-weight: 300;
+    color:#555;
+}
+
+.title-underbar{
+    border-bottom: 1px solid #ccc;
+}
+
+input.input-box-noouterline {
+    /* border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #ccc; */
+    border-width:0px;
+    border : none;
+    border-bottom: 1px solid #ccc; 
+    outline:none;
+    background-color: transparent;
+}
+
+.truncate {
+  width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
