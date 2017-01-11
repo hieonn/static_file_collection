@@ -1,0 +1,37 @@
+/* 
+ * Nanum Barun Gothic (Korean) http://hangeul.naver.com
+ */
+@font-face {
+  font-family: 'NanumBarunGothicUL';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Nanum Barun Gothic UltraLight'), local('Nanum Barun Gothic-UltraLight'), local('NanumBarunGothic UltraLight');
+  src: url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.eot);
+  src: url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.eot?#iefix) format('embedded-opentype'),
+       url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.woff) format('woff'),
+       url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumBarunGothicLT';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Nanum Barun Gothic Light'), local('Nanum Barun Gothic-Light'), local('NanumBarunGothic Light');
+  src: url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.eot);
+  src: url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.eot?#iefix) format('embedded-opentype'),
+       url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.woff) format('woff'),
+       url(https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.ttf) format('truetype');
+}
+
+/*
+nanumbarungothiclight.eot https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.eot
+nanumbarungothiclight.svg https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.svg
+nanumbarungothiclight.ttf https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.ttf
+nanumbarungothiclight.woff  https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.woff
+nanumbarungothiclight.woff2 https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothiclight.woff2
+nanumbarungothicultralight.eot  https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.eot
+nanumbarungothicultralight.svg  https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.svg
+nanumbarungothicultralight.ttf  https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.ttf
+nanumbarungothicultralight.woff https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.woff
+nanumbarungothicultralight.woff2 https://cdn.rawgit.com/hieonn/static_file_collection/398e4560/NanumBarunGothic/nanumbarungothicultralight.woff2
+*/
