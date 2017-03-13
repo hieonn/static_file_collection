@@ -1,0 +1,232 @@
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+*,
+*:before,
+/**/
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* =Template
+-------------------------------------------------------------- */
+#wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+#main {
+  background-color: #fff;
+  padding: 0; }
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px; }
+
+/* =Extras
+-------------------------------------------------------------- */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+
+
+#cslide-slides h2 {
+  margin-bottom: 10px;
+  font-weight: 700; }
+
+/*=Slides
+----------------------------------------------- */
+.cslide-slides-master {
+  overflow: hidden;
+  /*margin-bottom: 60px;*/ }
+
+.cslide-slides-master:last-child {
+  margin-bottom: 0; }
+
+.cslide-slides-container {
+  visibility: hidden; }
+
+.cslide-slide {
+  float: left;
+  padding: 0;
+  border: solid 5px #ffffff;
+  background-color: #ffffff; }
+
+.cslide-slide h2,
+.cslide-slide p {
+  color: #515151; }
+
+/* prev next buttons */
+.cslide-prev-next {
+  display: none;
+  text-align: right;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.cslide-prev, .cslide-next {
+  display: inline-block;
+  background: #ffff11
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: solid 5px #ffffff;
+  cursor: pointer; }
+
+.cslide-prev:hover,
+.cslide-next:hover {
+  background: #ffffff; }
+
+.cslide-prev.cslide-disabled:hover,
+.cslide-next.cslide-disabled:hover {
+  background: #ffff11; }
+
+.cslide-disabled {
+  opacity: 0.3; }
+
+
+#fbsharebutton {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 65px;
+    text-align: center;
+    vertical-align: middle;
+    width: 367px;
+    perspective-origin: 183.5px 32.5px;
+    transform-origin: 183.5px 32.5px;
+    font: normal normal normal normal 16px / 나눔고딕, NanumGothic;
+    margin: 0px 5px 0px 0px;
+}/*#fbsharebutton*/
+
+#fbsharebuttoninside {
+    background-position: 7px 50%;
+    bottom: 0px;
+    box-shadow: rgb(229, 229, 229) 0px 2px 4px 1px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 60px;
+    left: 0px;
+    min-height: 0px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 367px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 183.5px 30px;
+    transform-origin: 183.5px 30px;
+    background: rgb(51, 79, 165) url("http://i.imgur.com/gWWQUin.png") no-repeat scroll 7px 50% / 35px padding-box border-box;
+    border: 1px solid rgb(13, 47, 153);
+    border-radius: 4px 4px 4px 4px;
+    font: normal normal bold normal 20px / normal 나눔고딕, NanumGothic;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 7px 0px 50px;
+}/*#fbsharebuttoninside*/
+
+#fbsharebuttoninside:after {
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    content: '"\a' '"';
+    cursor: pointer;
+    display: block;
+    height: 58px;
+    left: 0px;
+    pointer-events: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    visibility: hidden;
+    width: 365px;
+    column-rule-color: rgb(255, 255, 255);
+    align-self: flex-start;
+    perspective-origin: 182.5px 29px;
+    transform-origin: 182.5px 29px;
+    background: rgba(0, 0, 0, 0.0470588) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold normal 20px / normal 나눔고딕, NanumGothic;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#fbsharebuttoninside:after*/
+
+.retryButton {
+    background-position: 7px 7px;
+    bottom: 0px;
+    box-shadow: rgb(229, 229, 229) 0px 2px 4px 1px;
+    cursor: pointer;
+    height: 65px;
+    left: 0px;
+    min-height: 46px;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 367px;
+    perspective-origin: 187.5px 23px;
+    transform-origin: 187.5px 23px;
+    background: rgb(255, 255, 255) url("http://i.imgur.com/K1cOwOW.png") no-repeat scroll 7px 7px / 33px padding-box border-box;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
+    padding: 0px 7px 0px 20px;
+}/*#retryButton*/
+
+.retryButton:after {
+    bottom: 0px;
+    content: '"\a' '"';
+    cursor: pointer;
+    display: block;
+    height: 65px;
+    left: 0px;
+    pointer-events: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    visibility: hidden;
+    width: 367px;
+    align-self: flex-start;
+    perspective-origin: 186.5px 22px;
+    transform-origin: 186.5px 22px;
+    background: rgba(0, 0, 0, 0.0470588) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
+}/*#retryButton:after*/
+
+.retryButtonSpanOut {
+    cursor: pointer;
+    text-align: center;
+    align-self: flex-start;
+    font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
+}/*#retryButtonSpanOut*/
+
+.retryButtonSpanIn {
+    cursor: pointer;
+    text-align: center;
+    font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
+}/*#retryButtonSpanIn*/
+
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 600px) {
+  .container {
+    width: 100%; }
+
+	#fbsharebutton {
+		font-size:18px;
+    width: 95%;
+	}/*#fbsharebutton*/
+
+	.retryButton {
+    width: 90%;
+		font-size:18px;
+	}/*#retryButton*/
+
+	#fbsharebuttoninside {
+		font-size:18px;
+    width: 100%;
+  }
+}
+
