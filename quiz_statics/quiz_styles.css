@@ -173,7 +173,7 @@
     font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
     padding: 0px 7px 0px 20px;
 }/*#retryButton*/
-
+/*
 .retryButton:after {
     bottom: 0px;
     content: '"\a' '"';
@@ -193,7 +193,7 @@
     background: rgba(0, 0, 0, 0.0470588) none repeat scroll 0% 0% / auto padding-box border-box;
     font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
 }/*#retryButton:after*/
-
+*/
 .retryButtonSpanOut {
     cursor: pointer;
     text-align: center;
