@@ -190,7 +190,7 @@
     align-self: flex-start;
     perspective-origin: 186.5px 22px;
     transform-origin: 186.5px 22px;
-    background: rgba(0, 0, 0, 0.0470588) none repeat scroll 0% 0% / auto padding-box border-box;
+    background: #fffff none repeat scroll 0% 0% / auto; /*padding-box border-box;*/
     font: normal normal bold normal 16px / normal 나눔고딕, NanumGothic;
 }/*#retryButton:after*/
 
